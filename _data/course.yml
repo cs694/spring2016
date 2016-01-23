@@ -1,0 +1,34 @@
+id: CS 384/694
+section: '01'
+title: Research Seminar in Computer Science
+term: Spring
+year: 2016
+topic: data visualization
+credits: 1
+lectures:
+    when: 'Mondays 1:00pm to 2:05pm'
+    building: Lo Schiavo Science
+    room: 307
+    url: https://www.usfca.edu/virtual-tour/main-campus/lo-schiavo
+instructors:
+    - name: Alark Joshi
+      email: apjoshi@usfca.edu
+      url: http://cs.usfca.edu/~apjoshi/
+    - name: Sophie Engle
+      email: sjengle@cs.usfca.edu
+      url: http://sjengle.cs.usfca.edu/
+office:
+    hours:
+        - 'Mondays 2:15pm to 3:30pm'
+        - 'Fridays 1:00pm to 3:00pm'
+    short: 'Mon 2:15&ndash;3:30pm, Fri 1:00&ndash;3:00pm'
+    building: Harney Science Center
+    room: 526
+    url: https://www.usfca.edu/virtual-tour/main-campus/harney-science
+description: 'In this course, students will explore an area of research in Computer Science by reading academic papers; independently learning tools and technologies related to the area; presenting research findings; leading tutorials on relevant tools; and participating in group discussion.'
+prerequisites: 'You must be a graduate student (CS 695) -or- have completed CS 112 Introduction to Computer Science II with a grade of C or better (CS 384).'
+outcomes:
+    - 'Understand how to read academic papers in Computer Science.'
+    - 'Prepare and deliver a presentation demonstrating understanding of a paper or new tool or piece of technology.'
+    - 'Analyze results and learn to critically evaluate research papers.'
+topic: 'techniques on visualization of hierarchical/linked data'

@@ -1,0 +1,161 @@
+- week : 1
+  date : 2016-01-25
+  info : 'Course Introduction'
+  iffy : false
+  flag : false
+  note : '<p>We will go over the <a href="syllabus.pdf">syllabus</a>, how to download and read academic papers, and go through introductions of everyone in the class.</p>'
+  link : false
+  read :
+    - title   : 'How to Read a Paper'
+      authors : 'Keshav, S.'
+      citation: 'ACM SIGCOMM Computer Communication Review, Volume 37, Issue 3, July 2007, Pages 83&ndash;84'
+      doi     : 'http://dx.doi.org/10.1145/1273445.1273458'
+    - title   : 'How to Read a Visualization Research Paper: Extracting the Essentials'
+      authors : 'Laramee, Robert S.'
+      citation: 'IEEE Computer Graphics and Applications, Volume 31, Number 3, May/June 2011, Pages 78&ndash;82'
+      pdf     : 'http://cs.swan.ac.uk/~csbob/research/how2read/laramee09how2read.pdf'
+      doi     : 'http://doi.ieeecomputersociety.org/10.1109/MCG.2011.44'
+
+- week : 2
+  date : 2016-02-01
+  info : 'Hierarchical Edge Bundles'
+  iffy : false
+  flag : false
+  note : false
+  link : false
+  read :
+    - title   : 'Hierarchical edge bundles: Visualization of adjacency relations in hierarchical data'
+      authors : 'Holten, Danny'
+      citation: 'Visualization and Computer Graphics, IEEE Transactions on 12.5 (2006): 741-748'
+
+- week : 3
+  date : 2016-02-08
+  info : 'Beamtrees'
+  iffy : false
+  flag : false
+  note : false
+  link : false
+  read :
+    - title   : 'Beamtrees: Compact visualization of large hierarchies'
+      authors : 'Van Ham, Frank, and Jarke J. Van Wijk'
+      citation: 'Information Visualization 2.1 (2003): 31-39'
+
+- week : 4
+  date : 2016-02-15
+  info : "<em>Presidents' Day &ndash; No Class</em>"
+  iffy : false
+  flag : false
+  note : false
+  link : false
+  read : false
+
+- week : 5
+  date : 2016-02-22
+  info : 'Treemaps'
+  iffy : false
+  flag : false
+  note : false
+  link : false
+  read :
+    - title   : 'Squarified treemaps'
+      authors : 'Bruls, M., Huizing, K., & Van Wijk, J. J.'
+      citation: 'Springer Vienna, pp. 33-42, 2000'
+
+- week : 6
+  date : 2016-02-29
+  info : 'Pending'
+  iffy : true
+  flag : false
+  note : false
+  link : false
+  read : false
+
+- week : 7
+  date : 2016-03-07
+  info : 'Pending'
+  iffy : true
+  flag : false
+  note : false
+  link : false
+  read : false
+
+- week : 8
+  date : 2016-03-14
+  info : '<em>Spring Break &ndash; No Class</em>'
+  iffy : false
+  flag : false
+  note : false
+  link : false
+  read : false
+
+- week : 9
+  date : 2016-03-21
+  info : 'Pending'
+  iffy : true
+  flag : false
+  note : false
+  link : false
+  read : false
+
+- week : 10
+  date : 2016-03-28
+  info : 'Pending'
+  iffy : true
+  flag : false
+  note : false
+  link : false
+  read : false
+
+- week : 11
+  date : 2016-04-04
+  info : 'Pending'
+  iffy : true
+  flag : false
+  note : false
+  link : false
+  read : false
+
+- week : 12
+  date : 2016-04-11
+  info : 'Pending'
+  iffy : true
+  flag : false
+  note : false
+  link : false
+  read : false
+
+- week : 13
+  date : 2016-04-18
+  info : 'Pending'
+  iffy : true
+  flag : false
+  note : false
+  link : false
+  read : false
+
+- week : 14
+  date : 2016-04-25
+  info : 'Pending'
+  iffy : true
+  flag : false
+  note : false
+  link : false
+  read : false
+
+- week : 15
+  date : 2016-05-20
+  info : 'Pending'
+  iffy : true
+  flag : false
+  note : false
+  link : false
+  read : false
+
+- week : 16
+  date : 2016-04-09
+  info : 'Pending'
+  iffy : true
+  flag : false
+  note : false
+  link : false
+  read : false

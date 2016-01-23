@@ -1,0 +1,39 @@
+---
+layout: default
+title: Papers
+---
+
+<h1 class="page-header">{{ page.title }}</h1>
+
+<p>You can find links to download papers and submit paper summaries here. Access to some of these papers is restricted. For details on how to download these papers, see the <a href="#off-campus">Off-Campus Access</a> section below.
+</p>
+
+<div class="panel panel-default">
+<table class="table table-hover">
+<thead>
+  <tr>
+    <th class="fill">Paper</th>
+    <th class="nowrap"><i class="fa fa-fw fa-link"></i></th>
+    <th class="nowrap"><i class="fa fa-fw fa-file-pdf-o"></i></th>
+    <th class="nowrap"><i class="fa fa-fw fa-film"></i></th>
+  </tr>
+</thead>
+
+<tbody>
+{% for row in site.data.schedule %}
+  {% if row.read %}
+    {% for paper in row.read %}
+    <tr>
+      <td>{{ paper.authors }}, <strong>{% if paper.doi %}<a href="{{ paper.doi }}">{% endif %}"{{ paper.title }}"{% if paper.doi %}</a>{% endif %}</strong>, {{ paper.citation }}.</td>
+      <td>{% if paper.doi %}<a href="{{ paper.doi }}"><i class="fa fa-fw fa-link"></i></a>{% else %}&nbsp;{% endif %}</td>
+      <td>{% if paper.pdf %}<a href="{{ paper.pdf }}"><i class="fa fa-fw fa-file-pdf-o"></i></a>{% else %}&nbsp;{% endif %}</td>
+      <td>{% if paper.vid %}<a href="{{ paper.vid }}"><i class="fa fa-fw fa-film"></i></a>{% else %}&nbsp;{% endif %}</td>
+    </tr>
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+{% include offcampus.html %}

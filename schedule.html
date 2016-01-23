@@ -1,0 +1,44 @@
+---
+layout: default
+title: Schedule
+---
+
+<h1 class="page-header">{{ page.title }}</h1>
+
+<div class="panel panel-default">
+<table class="table table-hover">
+<thead>
+  <tr>
+    <th>Week</th>
+    <th>Lecture</th>
+    <th>Description</th>
+    <th class="text-center">Turnin</th>
+  </tr>
+</thead>
+
+<tbody>
+{% for row in site.data.schedule %}
+  <tr{% if row.gray %} class="active text-muted" {% elsif row.iffy %} class="iffy"{% endif %}>
+    <td class="text-center nowrap">{{ row.week }}</td>
+    <td class="nowrap">{{ row.date | date: "%m/%d" }}{% if row.flag %} <i class="fa fa-star"></i>{% endif %}</td>
+    <td class="fill">
+      <p><strong>{{ row.info }}</strong></p>
+      {% if row.note %}
+      <p>{{ row.note }}</p>
+      {% endif %}
+      {% if row.read %}
+        <ul class="noindent">
+        {% for paper in row.read %}
+            <li><p>{{ paper.authors }}, <strong>{% if paper.doi %}<a href="{{ paper.doi }}">{% endif %}"{{ paper.title }}"{% if paper.doi %}</a>{% endif %}</strong>, {{ paper.citation }}. {% if paper.doi %}<a href="{{ paper.doi }}"><i class="fa fa-link"></i></a>{% endif %} {% if paper.pdf %} &nbsp; <a href="{{ paper.pdf }}"><i class="fa fa-file-pdf-o"></i></a>{% endif %} {% if paper.vid %} &nbsp; <a href="{{ paper.vid }}"><i class="fa fa-film"></i></a>{% endif %}</p></li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    </td>
+    <td class="text-center nowrap">{% if row.link %}<a href="{{ row.link }}" class="btn {% if row.iffy %}btn-default{% else %}usf-white-green{% endif %}">Submit <i class="fa fa-cloud-upload"></i></a>{% endif %}</td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+{% include offcampus.html %}

@@ -1,0 +1,50 @@
+{% capture lectureroom %}{{ site.data.course.lectures.building }} {{ site.data.course.lectures.room }}{% endcapture %}
+
+{% capture officehours %}{{ site.data.course.office.hours | join: ', ' }}{% endcapture %}
+
+{% capture officeroom %}{{ site.data.course.office.building }} {{ site.data.course.office.room }}{% endcapture %}
+
+<!-- course details -->
+<div class="row">
+  <div class="col-md-4">
+
+    <h2>Lectures</h2>
+
+    <div class="list-group">
+      <!-- lecture date/time -->
+      {% include item.html icon="fa-calendar" href="#" body=site.data.course.lectures.when %}
+
+      <!-- lecture location -->
+      {% include item.html icon="fa-university" href=site.data.course.lectures.url body=lectureroom %}
+    </div> <!-- /list-group -->
+  </div> <!-- /col-md-4 -->
+
+  <div class="col-md-4">
+
+    <h2>Office Hours</h2>
+
+    <div class="list-group">
+      <!-- office hours -->
+      {% for hour in site.data.course.office.hours %}
+      {% include item.html icon="fa-calendar" href="#" body=hour %}
+      {% endfor %}
+
+      <!-- office location -->
+      {% include item.html icon="fa-university" href=site.data.course.office.url body=officeroom %}
+    </div> <!-- /list-group -->
+  </div> <!-- /col-md-4 -->
+
+  <div class="col-md-4">
+
+    <h2>Links</h2>
+
+    <div class="list-group">
+      <!-- canvas link -->
+      {% include item.html icon="fa-globe" href=site.github.url body="Course Website" %}
+
+      <!-- github link -->
+      {% include item.html icon="fa-github-alt" href=site.github.repository_url body="Github Repository" %}
+    </div> <!-- /list-group -->
+  </div> <!-- /col-md-4 -->
+
+</div> <!-- /row -->

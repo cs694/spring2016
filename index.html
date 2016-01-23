@@ -1,0 +1,32 @@
+---
+layout: landing
+title: Home
+---
+
+{% include details.html %}
+
+<h2>Weekly Schedule</h2>
+
+<div class="panel panel-default">
+<table class="table table-hover">
+<thead>
+  <tr>
+    <th>Week</th>
+    <th>Lecture</th>
+    <th>Topics</th>
+  </tr>
+</thead>
+
+<tbody>
+{% for row in site.data.schedule %}
+  <tr{% if row.iffy %} class="iffy"{% endif %}>
+    <td class="text-center nowrap">{{ row.week }}</td>
+    <td class="nowrap">{{ row.date | date: "%m/%d" }}{% if row.flag %} <i class="fa fa-star"></i>{% endif %}</td>
+    <td class="fill">{{ row.info }}</td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+<p>See the <a href="{{ site.github.url }}/schedule.html">Schedule</a> page for assigned papers and more information.
