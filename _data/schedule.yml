@@ -2,7 +2,7 @@
   date : 2016-01-25
   info : 'Course Introduction'
   iffy : false
-  flag : false
+  icon : false
   note : '<p>We will go over the <a href="syllabus.pdf">syllabus</a>, how to download and read academic papers, and go through introductions of everyone in the class.</p>'
   link : false
   read :
@@ -20,52 +20,56 @@
   date : 2016-02-01
   info : 'Hierarchical Edge Bundles'
   iffy : false
-  flag : false
+  icon : false
   note : false
   link : false
   read :
-    - title   : 'Hierarchical edge bundles: Visualization of adjacency relations in hierarchical data'
+    - title   : 'Hierarchical Edge Bundles: Visualization of Adjacency Relations in Hierarchical Data'
       authors : 'Holten, Danny'
-      citation: 'Visualization and Computer Graphics, IEEE Transactions on 12.5 (2006): 741-748'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 12, Issue 5, 2006, Pages 741&ndash;748'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2006.147'
 
 - week : 3
   date : 2016-02-08
-  info : 'Beamtrees'
+  info : 'Beamtrees for Large Hierarchies'
   iffy : false
-  flag : false
+  icon : false
   note : false
   link : false
   read :
-    - title   : 'Beamtrees: Compact visualization of large hierarchies'
+    - title   : 'Beamtrees: Compact Visualization of Large Hierarchies'
       authors : 'Van Ham, Frank, and Jarke J. Van Wijk'
-      citation: 'Information Visualization 2.1 (2003): 31-39'
+      citation: 'Information Visualization, Volume 2, Number 1, March 2003, Pages 31&ndash;39'
+      doi     : 'http://dx.doi.org/10.1057/palgrave.ivs.9500036'
 
 - week : 4
   date : 2016-02-15
   info : "<em>Presidents' Day &ndash; No Class</em>"
   iffy : false
-  flag : false
+  icon : 'fa-calendar-times-o'
   note : false
   link : false
   read : false
 
 - week : 5
   date : 2016-02-22
-  info : 'Treemaps'
+  info : 'Squarified Treemaps'
   iffy : false
-  flag : false
+  icon : false
   note : false
   link : false
   read :
-    - title   : 'Squarified treemaps'
-      authors : 'Bruls, M., Huizing, K., & Van Wijk, J. J.'
-      citation: 'Springer Vienna, pp. 33-42, 2000'
+    - title   : 'Squarified Treemaps'
+      authors : 'Bruls, Mark, Kees Huizing, and Jarke J. van Wijk'
+      citation: 'Data Visualization 2000: Eurographics, Springer Vienna, 2000, Pages 33&ndash;42'
+      doi     : 'http://dx.doi.org/10.1007/978-3-7091-6783-0_4'
+      pdf     : 'https://www.win.tue.nl/~vanwijk/stm.pdf'
 
 - week : 6
   date : 2016-02-29
   info : 'Pending'
   iffy : true
-  flag : false
+  icon : false
   note : false
   link : false
   read : false
@@ -74,7 +78,7 @@
   date : 2016-03-07
   info : 'Pending'
   iffy : true
-  flag : false
+  icon : false
   note : false
   link : false
   read : false
@@ -83,7 +87,7 @@
   date : 2016-03-14
   info : '<em>Spring Break &ndash; No Class</em>'
   iffy : false
-  flag : false
+  icon : 'fa-calendar-times-o'
   note : false
   link : false
   read : false
@@ -92,7 +96,7 @@
   date : 2016-03-21
   info : 'Pending'
   iffy : true
-  flag : false
+  icon : false
   note : false
   link : false
   read : false
@@ -101,7 +105,7 @@
   date : 2016-03-28
   info : 'Pending'
   iffy : true
-  flag : false
+  icon : false
   note : false
   link : false
   read : false
@@ -110,7 +114,7 @@
   date : 2016-04-04
   info : 'Pending'
   iffy : true
-  flag : false
+  icon : false
   note : false
   link : false
   read : false
@@ -119,7 +123,7 @@
   date : 2016-04-11
   info : 'Pending'
   iffy : true
-  flag : false
+  icon : false
   note : false
   link : false
   read : false
@@ -128,7 +132,7 @@
   date : 2016-04-18
   info : 'Pending'
   iffy : true
-  flag : false
+  icon : false
   note : false
   link : false
   read : false
@@ -137,7 +141,7 @@
   date : 2016-04-25
   info : 'Pending'
   iffy : true
-  flag : false
+  icon : false
   note : false
   link : false
   read : false
@@ -146,7 +150,7 @@
   date : 2016-05-20
   info : 'Pending'
   iffy : true
-  flag : false
+  icon : false
   note : false
   link : false
   read : false
@@ -155,7 +159,7 @@
   date : 2016-04-09
   info : 'Pending'
   iffy : true
-  flag : false
+  icon : false
   note : false
   link : false
   read : false

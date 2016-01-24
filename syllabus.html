@@ -1,0 +1,165 @@
+---
+layout: default
+title: Syllabus
+---
+
+<h1 class="page-header">{{ page.title }}</h1>
+
+<h2>
+  {{ site.data.course.id }} {{ site.data.course.title }}
+  <br/>
+  <small>
+    {{ site.data.course.lectures.when }} in
+    <a href="{{ site.data.course.lectures.url }}">{{ site.data.course.lectures.building }}</a>,
+    Room {{ site.data.course.lectures.room }}
+  </small>
+</h2>
+
+<h2>
+  Instructor:
+  {{ site.data.course.instructors | map: "name" | join: ", " }}
+</h2>
+
+<table class=" noborder" style="width: auto;">
+  <tr>
+    <td>Office:</td>
+    <td style="width: 10px;">&nbsp;</td>
+    <td>{{ site.data.course.office.building }}, Room {{ site.data.course.office.room }}</td>
+  </tr>
+
+  <tr>
+    <td>Phone:</td>
+    <td>&nbsp;</td>
+    <td>415-422-4916</td>
+  </tr>
+
+  <tr>
+    <td>Email:</td>
+    <td>&nbsp;</td>
+    <td>{{ site.data.course.instructors | map: "email" | join: ", " }}</td>
+  </tr>
+
+  <tr>
+    <td>Office Hours:</td>
+    <td>&nbsp;</td>
+    <td>{{ site.data.course.office.short }} </td>
+  </tr>
+
+</table>
+
+
+
+<!--
+
+office:
+    hours:
+        - 'Mondays 2:15pm to 3:30pm'
+        - 'Fridays 1:00pm to 3:00pm'
+    short: 'Mon 2:15&ndash;3:30pm, Fri 1:00&ndash;3:00pm'
+    building: Harney Science Center
+    room: 526
+
+CS 384/694: Research Seminar in Computer Science
+M 1:00-2:05pm in LS 307
+Instructor: Alark Joshi, Sophie Engle
+Office Phone email
+Office hours
+Harney 526
+415-422-4916
+apjoshi@usfca.edu, sjengle@usfca.edu Mondays 2:15pm-3:30pm and Fridays 1-3pm
+//-->
+
+<h2>Catalog Description</h2>
+
+<p>{{ site.data.course.description }}</p>
+
+<h2>Objectives</h2>
+
+<p>By taking this the course the student will be able to:</p>
+
+<ul>
+{% for item in site.data.course.outcomes %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+<h2>Prerequisites</h2>
+
+{{ site.data.course.prerequisites }}
+
+<h2>Grading</h2>
+
+<p>Undergraduate students enrolled in CS 384 will receive a P (Passing) or F (Failing) letter grade. Graduate students enrolled in CS 694 will receive an A, B, C, or F letter grade. The breakdown is as follows:</p>
+
+<div class="panel panel-default">
+<table class="table table-hover">
+<thead>
+  <tr>
+    <th class="nowrap">CS 384</th>
+    <th class="nowrap">CS 694</th>
+    <th class="fill">Requirements</th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+    <td>P</td>
+    <td>A (4.0)</td>
+    <td>
+      <ul class="noindent">
+        <li>Must meet the requirements of a B letter grade, <em>and...</em>.</li>
+        <li>Must deliver at least one presentation or lead one discussion.</li>
+      </ul>
+    </td>
+  </tr>
+
+  <td>P</td>
+    <td>B (3.0)</td>
+    <td>
+      <ul class="noindent">
+        <li>Must meet the requirements of a C letter grade, <em>and...</em>.</li>
+        <li>Must <u>actively</u> participate in class discussions.</li>
+      </ul>
+    </td>
+  </tr>
+
+  <td>P</td>
+    <td>C (2.0)</td>
+    <td>
+      <ul class="noindent">
+        <li>Must not have more than 2 unexcused absences, <em>and...</em></li>
+        <li>Must not have more than 2 incomplete participation assignments.</li>
+      </ul>
+    </td>
+  </tr>
+
+  <td>F</td>
+    <td>F (0.0)</td>
+    <td>
+      <ul class="noindent">
+        <li>Fail to meet the above requirements.</li>
+      </ul>
+    </td>
+  </tr>
+</tbody>
+
+</table>
+</div>
+
+<p class="small text-muted">Please note that +/&ndash; letter grades will not be assigned, and graduate students may not receive a D letter grade (in any class).</p>
+
+<h2>Resources</h2>
+
+<p>All relevant class material will be made available on the class web page at <a href="http://researchseminar.cs.usfca.edu">researchseminar.cs.usfca.edu</a>.</p>
+
+<h2>Academic Dishonesty</h2>
+
+<p>Students are required to follow the University's Honor Code: "As a Jesuit institution committed to cura personalis&mdash;the care and education of the whole person&mdash;USF has an obligation to embody and foster the values of honesty and integrity. USF upholds the standards of honesty and integrity from all members of the academic community. All students are expected to know and adhere to the University's Honor Code."" You can find the full text of the code online at <a href="http://www.usfca.edu/fogcutter">www.usfca.edu/fogcutter</a>.</p>
+
+<h2>Students with Disabilities</h2>
+
+<p>If you are a student with a disability or disabling condition, or if you think you may have a disability, please contact USF Student Disability Services (SDS) at (415) 422-2613 within the first week of class, or immediately upon onset of disability, to speak with a disability specialist. If you are determined eligible for reasonable accommodations, please provide me with your SDS Verified Individualized Services and Accommodations (VISA) form, and we will discus your needs for this course. For more information, please visit: <a href="http://www.usfca.edu/sds">www.usfca.edu/sds</a> or call (415) 422-2613.</p>
+
+<h2>Attendance Policy</h2>
+
+<p>Attendance is <strong>mandatory</strong>. Absences are only excused in cases of verified family or medical emergency.</p>

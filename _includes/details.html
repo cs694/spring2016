@@ -16,21 +16,19 @@
 
       <!-- lecture location -->
       {% include item.html icon="fa-university" href=site.data.course.lectures.url body=lectureroom %}
+
     </div> <!-- /list-group -->
   </div> <!-- /col-md-4 -->
 
   <div class="col-md-4">
 
-    <h2>Office Hours</h2>
+    <h2>Instructors</h2>
 
     <div class="list-group">
-      <!-- office hours -->
-      {% for hour in site.data.course.office.hours %}
-      {% include item.html icon="fa-calendar" href="#" body=hour %}
+      <!-- instructors -->
+      {% for instructor in site.data.course.instructors %}
+      {% include item.html icon="fa-user" href=instructor.url body=instructor.name %}
       {% endfor %}
-
-      <!-- office location -->
-      {% include item.html icon="fa-university" href=site.data.course.office.url body=officeroom %}
     </div> <!-- /list-group -->
   </div> <!-- /col-md-4 -->
 

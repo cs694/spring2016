@@ -54,6 +54,16 @@ footer p {
   a[href]:after {
     content: none;
   }
+
+  .page-header {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
 }
 
 tbody tr th {
@@ -80,7 +90,7 @@ ul.noindent, ol.noindent {
   padding-left: 20px;
 }
 
-table.noborder {
+table.noborder, table.noborder tr, table.noborder tr td {
   border: 0px;
   border-collapse: collapse;
   width: auto;

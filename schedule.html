@@ -10,7 +10,7 @@ title: Schedule
 <thead>
   <tr>
     <th>Week</th>
-    <th>Lecture</th>
+    <th colspan="2">Lecture</th>
     <th>Description</th>
     <th class="text-center">Turnin</th>
   </tr>
@@ -20,7 +20,8 @@ title: Schedule
 {% for row in site.data.schedule %}
   <tr{% if row.gray %} class="active text-muted" {% elsif row.iffy %} class="iffy"{% endif %}>
     <td class="text-center nowrap">{{ row.week }}</td>
-    <td class="nowrap">{{ row.date | date: "%m/%d" }}{% if row.flag %} <i class="fa fa-star"></i>{% endif %}</td>
+    <td class="nowrap">{{ row.date | date: "%m/%d" }}</td>
+    <td class="nowrap">{% if row.icon %} <i class="fa {{ row.icon }}"></i>{% else %}&nbsp;{% endif %}</td>
     <td class="fill">
       <p><strong>{{ row.info }}</strong></p>
       {% if row.note %}
