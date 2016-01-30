@@ -22,7 +22,7 @@
   iffy : false
   icon : false
   note : false
-  link : false
+  link : "https://usfca.instructure.com/courses/1558950/quizzes/2297769"
   read :
     - title   : 'Hierarchical Edge Bundles: Visualization of Adjacency Relations in Hierarchical Data'
       authors : 'Holten, Danny'
