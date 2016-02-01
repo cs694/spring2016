@@ -31,16 +31,17 @@
 
 - week : 3
   date : 2016-02-08
-  info : 'Beamtrees for Large Hierarchies'
+  info : 'Squarified Treemaps'
   iffy : false
   icon : false
   note : false
   link : false
   read :
-    - title   : 'Beamtrees: Compact Visualization of Large Hierarchies'
-      authors : 'Van Ham, Frank, and Jarke J. Van Wijk'
-      citation: 'Information Visualization, Volume 2, Number 1, March 2003, Pages 31&ndash;39'
-      doi     : 'http://dx.doi.org/10.1057/palgrave.ivs.9500036'
+    - title   : 'Squarified Treemaps'
+      authors : 'Bruls, Mark, Kees Huizing, and Jarke J. van Wijk'
+      citation: 'Data Visualization 2000: Eurographics, Springer Vienna, 2000, Pages 33&ndash;42'
+      doi     : 'http://dx.doi.org/10.1007/978-3-7091-6783-0_4'
+      pdf     : 'https://www.win.tue.nl/~vanwijk/stm.pdf'
 
 - week : 4
   date : 2016-02-15
@@ -53,17 +54,17 @@
 
 - week : 5
   date : 2016-02-22
-  info : 'Squarified Treemaps'
+  info : 'Beamtrees for Large Hierarchies'
   iffy : false
   icon : false
   note : false
   link : false
   read :
-    - title   : 'Squarified Treemaps'
-      authors : 'Bruls, Mark, Kees Huizing, and Jarke J. van Wijk'
-      citation: 'Data Visualization 2000: Eurographics, Springer Vienna, 2000, Pages 33&ndash;42'
-      doi     : 'http://dx.doi.org/10.1007/978-3-7091-6783-0_4'
-      pdf     : 'https://www.win.tue.nl/~vanwijk/stm.pdf'
+    - title   : 'Beamtrees: Compact Visualization of Large Hierarchies'
+      authors : 'Van Ham, Frank, and Jarke J. Van Wijk'
+      citation: 'Information Visualization, Volume 2, Number 1, March 2003, Pages 31&ndash;39'
+      doi     : 'http://dx.doi.org/10.1057/palgrave.ivs.9500036'
+
 
 - week : 6
   date : 2016-02-29
