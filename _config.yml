@@ -1,6 +1,6 @@
 name: CS Research Seminar
 author: Alark Joshi
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 future: false
 permalink: none
