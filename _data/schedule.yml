@@ -140,12 +140,16 @@
 
 - week : 14
   date : 2016-04-25
-  info : 'Pending'
-  iffy : true
+  info : 'Visualizing Dynamic Graphs'
+  iffy : false
   icon : false
-  note : false
+  note : 'Paper Presentation by Mayank Thirani'
   link : false
-  read : false
+  read :
+    - title   : 'DiffAni: Visualizing Dynamic Graphs with a Hybrid of Difference Maps and Animation'
+      authors : 'Rufiange, Sébastien, and Michael J. McGuffin'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 19, Issue 12, 2013, Pages 2556&ndash;2565'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2013.149'
 
 - week : 15
   date : 2016-05-20
