@@ -68,12 +68,16 @@
 
 - week : 6
   date : 2016-02-29
-  info : 'Pending'
+  info : 'TreeJuxtaposer for Tree Comparison'
   iffy : true
   icon : false
   note : false
   link : false
-  read : false
+  read :
+    - title   : 'TreeJuxtaposer: Scalable Tree Comparison using Focus+Context with Guaranteed Visibility'
+      authors : 'Munzner, Tamara, François Guimbretière, Serdar Tasiran, Li Zhang, and Yunhong Zhou'
+      citation: 'ACM Transactions on Graphics (TOG), Volume 22, Number 3, Pages 453&ndash;462'
+      doi     : 'http://dx.doi.org/10.1145/1201775.882291'
 
 - week : 7
   date : 2016-03-07
