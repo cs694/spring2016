@@ -69,7 +69,7 @@
 - week : 6
   date : 2016-02-29
   info : 'TreeJuxtaposer for Tree Comparison'
-  iffy : true
+  iffy : false
   icon : false
   note : false
   link : false
