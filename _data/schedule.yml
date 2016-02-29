@@ -81,12 +81,16 @@
 
 - week : 7
   date : 2016-03-07
-  info : 'Pending'
-  iffy : true
+  info : 'MatrixExplorer for Social Networks'
+  iffy : false
   icon : false
   note : false
   link : false
-  read : false
+  read :
+    - title   : 'MatrixExplorer: a Dual-Representation System to Explore Social Networks'
+      authors : 'Henry, Nathalie and Jean-Daniel Fekete'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 12, Issue 5, 2006, Pages 677&ndash;684'
+      doi     : 'http://0-dx.doi.org.ignacio.usfca.edu/10.1109/TVCG.2006.160'
 
 - week : 8
   date : 2016-03-14
