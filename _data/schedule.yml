@@ -22,7 +22,7 @@
   iffy : false
   icon : false
   note : false
-  link : "https://usfca.instructure.com/courses/1558950/quizzes/2297769"
+  link : 'https://usfca.instructure.com/courses/1558950/quizzes/2297769'
   read :
     - title   : 'Hierarchical Edge Bundles: Visualization of Adjacency Relations in Hierarchical Data'
       authors : 'Holten, Danny'
@@ -35,7 +35,7 @@
   iffy : false
   icon : false
   note : false
-  link : https://usfca.instructure.com/courses/1558950/quizzes/2297803
+  link : 'https://usfca.instructure.com/courses/1558950/quizzes/2297803'
   read :
     - title   : 'Squarified Treemaps'
       authors : 'Bruls, Mark, Kees Huizing, and Jarke J. van Wijk'
@@ -72,7 +72,7 @@
   iffy : false
   icon : false
   note : false
-  link : false
+  link : 'https://usfca.instructure.com/courses/1558950/quizzes/2298356'
   read :
     - title   : 'TreeJuxtaposer: Scalable Tree Comparison using Focus+Context with Guaranteed Visibility'
       authors : 'Munzner, Tamara, François Guimbretière, Serdar Tasiran, Li Zhang, and Yunhong Zhou'
