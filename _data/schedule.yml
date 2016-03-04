@@ -84,13 +84,13 @@
   info : 'MatrixExplorer for Social Networks'
   iffy : false
   icon : false
-  note : false
+  note : 'Paper Presentation by Jacob Tarnow'
   link : false
   read :
     - title   : 'MatrixExplorer: a Dual-Representation System to Explore Social Networks'
       authors : 'Henry, Nathalie and Jean-Daniel Fekete'
       citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 12, Issue 5, 2006, Pages 677&ndash;684'
-      doi     : 'http://0-dx.doi.org.ignacio.usfca.edu/10.1109/TVCG.2006.160'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2006.160'
 
 - week : 8
   date : 2016-03-14
@@ -104,11 +104,15 @@
 - week : 9
   date : 2016-03-21
   info : 'Pending'
-  iffy : true
+  iffy : false
   icon : false
-  note : false
+  note : 'Paper Presentation by Simon Kwong'
   link : false
-  read : false
+  read :
+    - title   : 'A Comparison of the Readability of Graphs Using Node-Link and Matrix-Based Representations'
+      authors : 'Ghoniem, Mohammad, Jean-Daniel Fekete, and Philippe Castagliola '
+      citation: "Proceedings of the IEEE Symposium on Information Visualization (INFOVIS '04), 2004, Pages 17&ndash;24"
+      doi     : 'http://doi.ieeecomputersociety.org/10.1109/INFVIS.2004.1'
 
 - week : 10
   date : 2016-03-28
