@@ -83,7 +83,7 @@
   date : 2016-03-07
   info : 'MatrixExplorer for Social Networks'
   iffy : false
-  icon : false
+  icon : 'fa-hand-o-right'
   note : 'Paper Presentation by Jacob Tarnow'
   link : false
   read :
@@ -105,7 +105,7 @@
   date : 2016-03-21
   info : 'Readability of Graphs'
   iffy : false
-  icon : false
+  icon : 'fa-hand-o-right'
   note : 'Paper Presentation by Simon Kwong'
   link : false
   read :
@@ -154,7 +154,7 @@
   date : 2016-04-25
   info : 'Visualizing Dynamic Graphs'
   iffy : false
-  icon : false
+  icon : 'fa-hand-o-right'
   note : 'Paper Presentation by Mayank Thirani'
   link : false
   read :

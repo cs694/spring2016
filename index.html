@@ -25,7 +25,7 @@ title: Home
     <td class="text-center nowrap">{{ row.week }}</td>
     <td class="nowrap">{{ row.date | date: "%m/%d" }}</td>
     <td class="nowrap">{% if row.icon %} <i class="fa {{ row.icon }}"></i>{% else %}&nbsp;{% endif %}</td>
-    <td class="fill">{{ row.info }}</td>
+    <td class="fill">{{ row.info }}{% for paper in row.read %}{% if paper.doi %} <a href="{{ paper.doi }}"><i class="fa fa-link"></i></a>{% endif %}{% if paper.pdf %} <a href="{{ paper.pdf }}"><i class="fa fa-file-pdf-o"></i></a>{% endif %}{% if paper.vid %} <a href="{{ paper.vid }}"><i class="fa fa-film"></i></a>{% endif %}{% endfor %}</td>
   </tr>
 {% endfor %}
 </tbody>
