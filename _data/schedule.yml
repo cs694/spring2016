@@ -85,7 +85,7 @@
   iffy : false
   icon : 'fa-hand-o-right'
   note : 'Paper Presentation by Jacob Tarnow'
-  link : false
+  link : 'https://usfca.instructure.com/courses/1558950/quizzes/2298513'
   read :
     - title   : 'MatrixExplorer: a Dual-Representation System to Explore Social Networks'
       authors : 'Henry, Nathalie and Jean-Daniel Fekete'
@@ -110,18 +110,22 @@
   link : false
   read :
     - title   : 'A Comparison of the Readability of Graphs Using Node-Link and Matrix-Based Representations'
-      authors : 'Ghoniem, Mohammad, Jean-Daniel Fekete, and Philippe Castagliola '
+      authors : 'Ghoniem, Mohammad, Jean-Daniel Fekete, and Philippe Castagliola'
       citation: "Proceedings of the IEEE Symposium on Information Visualization (INFOVIS '04), 2004, Pages 17&ndash;24"
       doi     : 'http://doi.ieeecomputersociety.org/10.1109/INFVIS.2004.1'
 
 - week : 10
   date : 2016-03-28
-  info : 'Pending'
-  iffy : true
-  icon : false
-  note : false
+  info : 'Elastic Hierarchies'
+  iffy : false
+  icon : 'fa-hand-o-right'
+  note : 'Paper Presentation by Thanawut Ananpiriyakul'
   link : false
-  read : false
+  read :
+    - title   : 'Elastic Hierarchies: Combining Treemaps and Node-Link Diagrams'
+      authors : 'Zhao, Shengdong, Michael J. McGuffin, and Mark H. Chignell'
+      citation: "Proceedings of the IEEE Symposium on Information Visualization (INFOVIS '05), 2005, Pages 57&ndash;64"
+      doi     : 'http://dx.doi.org/10.1109/INFVIS.2005.1532129'
 
 - week : 11
   date : 2016-04-04
