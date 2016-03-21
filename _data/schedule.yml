@@ -120,7 +120,7 @@
   iffy : false
   icon : 'fa-hand-o-right'
   note : 'Paper Presentation by Thanawut Ananpiriyakul'
-  link : false
+  link : 'https://docs.google.com/forms/d/1s7iZD-dzsmZgcKZJ7DFSLD0LTX5nGMd37TMYr3_gCzU/viewform?entry.1085323759&entry.800570100=Elastic+Hierarchies:+Combining+Treemaps+and+Node-Link+Diagrams&entry.157733498&entry.505081383&entry.1020452047&entry.25621112'
   read :
     - title   : 'Elastic Hierarchies: Combining Treemaps and Node-Link Diagrams'
       authors : 'Zhao, Shengdong, Michael J. McGuffin, and Mark H. Chignell'
@@ -129,12 +129,16 @@
 
 - week : 11
   date : 2016-04-04
-  info : 'Pending'
-  iffy : true
-  icon : false
+  info : 'SpaceTree for Tree Exploration'
+  iffy : false
+  icon : 'fa-hand-o-right'
   note : false
-  link : false
-  read : false
+  link : 'https://docs.google.com/forms/d/1s7iZD-dzsmZgcKZJ7DFSLD0LTX5nGMd37TMYr3_gCzU/viewform?entry.1085323759&entry.800570100=SpaceTree:+Supporting+Exploration+in+Large+Node+Link+Tree,+Design+Evolution+and+Empirical+Evaluation&entry.157733498&entry.505081383&entry.1020452047&entry.25621112'
+  read :
+    - title   : 'SpaceTree: Supporting Exploration in Large Node Link Tree, Design Evolution and Empirical Evaluation'
+      authors : 'Plaisant, Catherine, Jesse Grosjean, and Benjamin B. Bederson'
+      citation: 'IEEE Symposium on Information Visualization (INFOVIS 2002), 2002, Pages 57&ndash;64'
+      doi     : 'http://dx.doi.org/10.1109/INFVIS.2002.1173148'
 
 - week : 12
   date : 2016-04-11
@@ -160,7 +164,7 @@
   iffy : false
   icon : 'fa-hand-o-right'
   note : 'Paper Presentation by Mayank Thirani'
-  link : false
+  link : 'https://docs.google.com/forms/d/1s7iZD-dzsmZgcKZJ7DFSLD0LTX5nGMd37TMYr3_gCzU/viewform?entry.1085323759&entry.800570100=DiffAni:+Visualizing+Dynamic+Graphs+with+a+Hybrid+of+Difference+Maps+and+Animation&entry.157733498&entry.505081383&entry.1020452047&entry.25621112'
   read :
     - title   : 'DiffAni: Visualizing Dynamic Graphs with a Hybrid of Difference Maps and Animation'
       authors : 'Rufiange, Sébastien, and Michael J. McGuffin'
