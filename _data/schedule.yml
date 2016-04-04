@@ -84,7 +84,7 @@
   info : 'MatrixExplorer for Social Networks'
   iffy : false
   icon : 'fa-hand-o-right'
-  note : 'Paper Presentation by Jacob Tarnow'
+  note : 'Paper Presentation by Jacob'
   link : 'https://usfca.instructure.com/courses/1558950/quizzes/2298513'
   read :
     - title   : 'MatrixExplorer: a Dual-Representation System to Explore Social Networks'
@@ -106,7 +106,7 @@
   info : 'Readability of Graphs'
   iffy : false
   icon : 'fa-hand-o-right'
-  note : 'Paper Presentation by Simon Kwong'
+  note : 'Paper Presentation by Simon'
   link : false
   read :
     - title   : 'A Comparison of the Readability of Graphs Using Node-Link and Matrix-Based Representations'
@@ -119,7 +119,7 @@
   info : 'Elastic Hierarchies'
   iffy : false
   icon : 'fa-hand-o-right'
-  note : 'Paper Presentation by Thanawut Ananpiriyakul'
+  note : 'Paper Presentation by Thanawut'
   link : 'https://docs.google.com/forms/d/1s7iZD-dzsmZgcKZJ7DFSLD0LTX5nGMd37TMYr3_gCzU/viewform?entry.1085323759&entry.800570100=Elastic+Hierarchies:+Combining+Treemaps+and+Node-Link+Diagrams&entry.157733498&entry.505081383&entry.1020452047&entry.25621112'
   read :
     - title   : 'Elastic Hierarchies: Combining Treemaps and Node-Link Diagrams'
@@ -132,22 +132,26 @@
   info : 'SpaceTree for Tree Exploration'
   iffy : false
   icon : 'fa-hand-o-right'
-  note : false
+  note : 'Paper Presentation by Kaynat'
   link : 'https://docs.google.com/forms/d/1s7iZD-dzsmZgcKZJ7DFSLD0LTX5nGMd37TMYr3_gCzU/viewform?entry.1085323759&entry.800570100=SpaceTree:+Supporting+Exploration+in+Large+Node+Link+Tree,+Design+Evolution+and+Empirical+Evaluation&entry.157733498&entry.505081383&entry.1020452047&entry.25621112'
   read :
     - title   : 'SpaceTree: Supporting Exploration in Large Node Link Tree, Design Evolution and Empirical Evaluation'
       authors : 'Plaisant, Catherine, Jesse Grosjean, and Benjamin B. Bederson'
-      citation: 'IEEE Symposium on Information Visualization (INFOVIS 2002), 2002, Pages 57&ndash;64'
+      citation: 'Proceedings of the IEEE Symposium on Information Visualization (INFOVIS 2002), 2002, Pages 57&ndash;64'
       doi     : 'http://dx.doi.org/10.1109/INFVIS.2002.1173148'
 
 - week : 12
   date : 2016-04-11
-  info : 'Pending'
-  iffy : true
+  info : 'Group Information'
+  iffy : false
   icon : false
   note : false
-  link : false
-  read : false
+  link : 'https://docs.google.com/forms/d/1s7iZD-dzsmZgcKZJ7DFSLD0LTX5nGMd37TMYr3_gCzU/viewform?entry.1085323759&entry.800570100=How+to+Display+Group+Information+on+Node-Link+Diagrams:+An+Evaluation&entry.157733498&entry.505081383&entry.1020452047&entry.25621112'
+  read :
+    - title   : 'How to Display Group Information on Node-Link Diagrams: An Evaluation'
+      authors : 'Jianu, Radu, Adrian Rusu, Yifan Hu, and Douglas Taggart'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 20, Issue 11, 2014, Pages 1530&ndash;1541'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2014.2315995'
 
 - week : 13
   date : 2016-04-18
@@ -163,7 +167,7 @@
   info : 'Visualizing Dynamic Graphs'
   iffy : false
   icon : 'fa-hand-o-right'
-  note : 'Paper Presentation by Mayank Thirani'
+  note : 'Paper Presentation by Mayank'
   link : 'https://docs.google.com/forms/d/1s7iZD-dzsmZgcKZJ7DFSLD0LTX5nGMd37TMYr3_gCzU/viewform?entry.1085323759&entry.800570100=DiffAni:+Visualizing+Dynamic+Graphs+with+a+Hybrid+of+Difference+Maps+and+Animation&entry.157733498&entry.505081383&entry.1020452047&entry.25621112'
   read :
     - title   : 'DiffAni: Visualizing Dynamic Graphs with a Hybrid of Difference Maps and Animation'
@@ -172,16 +176,20 @@
       doi     : 'http://dx.doi.org/10.1109/TVCG.2013.149'
 
 - week : 15
-  date : 2016-05-20
-  info : 'Pending'
-  iffy : true
-  icon : false
-  note : false
-  link : false
-  read : false
+  date : 2016-05-02
+  info : 'User Experiments'
+  iffy : false
+  icon : 'fa-hand-o-right'
+  note : 'Paper Presentation by Siyang'
+  link : 'https://docs.google.com/forms/d/1s7iZD-dzsmZgcKZJ7DFSLD0LTX5nGMd37TMYr3_gCzU/viewform?entry.1085323759&entry.800570100=User+Experiments+with+Tree+Visualization+Systems&entry.157733498&entry.505081383&entry.1020452047&entry.25621112'
+  read :
+    - title   : 'User Experiments with Tree Visualization Systems'
+      authors : 'Kobsa, Alfred'
+      citation: "Proceedings of the IEEE Symposium on Information Visualization (INFOVIS '04)"
+      doi     : 'http://dx.doi.org/10.1109/INFOVIS.2004.70'
 
 - week : 16
-  date : 2016-04-09
+  date : 2016-05-09
   info : 'Pending'
   iffy : true
   icon : false
