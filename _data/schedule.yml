@@ -155,12 +155,16 @@
 
 - week : 13
   date : 2016-04-18
-  info : 'Pending'
-  iffy : true
-  icon : false
-  note : false
-  link : false
-  read : false
+  info : 'Task Taxonomy'
+  iffy : false
+  icon : 'fa-hand-o-right'
+  note : 'Paper Presentation by Naseem'
+  link : 'https://docs.google.com/forms/d/1s7iZD-dzsmZgcKZJ7DFSLD0LTX5nGMd37TMYr3_gCzU/viewform?entry.1085323759&entry.800570100=Task+Taxonomy+for+Graph+Visualization&entry.157733498&entry.505081383&entry.1020452047&entry.25621112'
+  read :
+    - title   : 'Task Taxonomy for Graph Visualization'
+      authors : 'Lee, Bongshin, Catherine Plaisant, Cynthia Sims Parr, Jean-Daniel Fekete, and Nathalie Henry'
+      citation: "Proceedings of the 2006 AVI Workshop on BEyond Time and Errors: Novel Evaluation Methods for Information Visualization (BELIV '06), 2006, Pages 1&ndash;5"
+      doi     : 'http://dx.doi.org/10.1145/1168149.1168168'
 
 - week : 14
   date : 2016-04-25
